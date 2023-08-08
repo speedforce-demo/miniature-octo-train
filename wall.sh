@@ -45,6 +45,6 @@ sudo sh -c 'echo "sudo apt autoremove -y" >> /etc/cron.monthly/autoremove'
 # Setup Monthly Junk Remover Job
 sudo chmod +x /etc/cron.monthly/autoremove
 # End
-echo "Part 01 Done !"
+echo "Wall Done !"
 # Remove opcmake file
-rm -r part1
+rm -r wall.sh
